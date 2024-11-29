@@ -29,7 +29,7 @@
   "author": "Jen-Chieh Shen",
   "license": "GPL-3.0",
   "dependencies": {
-    "which": "^4.0.0",
+    "which": "^5.0.0",
     "yargs": "^17.0.0"
   },
   "devDependencies": {
