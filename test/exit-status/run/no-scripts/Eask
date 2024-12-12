@@ -1,0 +1,15 @@
+(package "check-clean" "0.0.1" "mock package")
+
+(package-file "lint.el")
+
+(source 'gnu)
+
+(eask-defcommand my-command
+                 "This is a command"
+                 (message "hello world"))
+
+(eask-defcommand my-warn
+                 (warn "A warning"))
+
+(eask-defcommand my-error
+                 (error "An error"))

@@ -1,0 +1,7 @@
+(package "test-buttercup"
+         "0.0.1"
+         "Test project for test-buttercup")
+(package-file "test-buttercup-pkg.el")
+
+(source 'gnu)
+(source 'melpa)

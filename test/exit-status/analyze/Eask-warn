@@ -1,0 +1,5 @@
+(package "check-dsl" "0.0.1" "Test for DSL")
+
+(keywords "dsl")
+
+(package-file "none.el")

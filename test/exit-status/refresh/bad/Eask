@@ -1,0 +1,8 @@
+(package "lint"
+         "0.0.1"
+         "Test project for lint")
+(package-file "lint-pkg.el")
+
+(source 'gnu)
+(source 'melpa)
+(source 'foobar)

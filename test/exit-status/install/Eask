@@ -1,0 +1,6 @@
+(package "check-clean" "0.0.1" "mock package")
+
+(source 'gnu)
+(source 'melpa)
+
+(depends-on "not-a-package")

@@ -34,7 +34,7 @@ command-local:
 
 command-analyze:
 	./test/commands/analyze/dsl/run.sh
-	./test/commands/analyze/metadata/run.sh
+	./test/commands/analyze/metadata/run.sh;
 
 command-docker:
 	./test/commands/docker/run.sh
@@ -68,3 +68,24 @@ test-buttercup:
 
 test-ecukes:
 	./test/commands/test/ecukes/run.sh
+
+test-exit-status:
+	./test/exit-status/analyze/run.sh
+	./test/exit-status/clean/run.sh
+	./test/exit-status/compile/run.sh
+	./test/exit-status/create/run.sh
+	./test/exit-status/eval/run.sh
+	./test/exit-status/fixtures/run.sh
+	./test/exit-status/format/run.sh
+	./test/exit-status/generate/run.sh
+	./test/exit-status/install/run.sh
+	./test/exit-status/install-deps/run.sh
+	./test/exit-status/link/run.sh
+	./test/exit-status/lint/run.sh
+	./test/exit-status/load/run.sh
+	./test/exit-status/package/run.sh
+	./test/exit-status/refresh/run.sh
+	./test/exit-status/reinstall/run.sh
+	./test/exit-status/run/run.sh
+	./test/exit-status/test/run.sh
+	./test/exit-status/uninstall/run.sh

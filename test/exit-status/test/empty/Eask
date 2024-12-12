@@ -1,0 +1,7 @@
+(package "empty"
+         "0.0.1"
+         "Test project for empty")
+(package-file "empty-pkg.el")
+
+(source 'gnu)
+(source 'melpa)
